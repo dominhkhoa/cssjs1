@@ -117,7 +117,7 @@ $(window).load(function() {
 			$(divpopup).attr('id', 'myModal');
 			$(divpopup).attr('class', 'linhnguyen-modal');
 			$( "body" ).append(divpopup);
-			$("#myModal").html("<a href='http://diamondlotus.net.vn/' target='_blank'><img src='http://diamondlotus.net.vn/wp-content/uploads/2015/09/DiamonLotus_VoTrongNghia08.jpg' width='500px'/><br/>Tặng 1 cây vàng cho 10 khách hàng đầu tiên</a>. LH: 0932 61 4040. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
+			$("#myModal").html("<a href='http://diamondlotus.net.vn/' target='_blank'><img src='http://diamondlotus.net.vn/wp-content/uploads/2015/09/DiamonLotus_VoTrongNghia08.jpg' width='500px'/><br/>Tặng 1 cây vàng cho 10 khách hàng đầu tiên</a>. LH: 0932614040. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
 			$('#myModal').linhnguyen($('#myModal').data());
 		}
 });
